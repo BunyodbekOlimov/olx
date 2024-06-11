@@ -1,0 +1,134 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+    a {
+        color: #fff;
+    }
+
+    &__logo {
+        width: 70px;
+    }
+
+    &__collection {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        .navbar__img {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+
+            a {
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+
+        .navbar__text {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .navbar__title {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+
+            a {
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 5px;
+        color: #002F34;
+        background-color: #fff;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .navbar {
+
+        .navbar__collection {
+
+            .navbar__img {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .navbar {
+
+        .navbar__collection {
+
+            .navbar__img {
+                display: none;
+            }
+
+            .navbar__text {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .navbar {
+
+        .navbar__collection {
+
+            .navbar__img {
+                display: none;
+            }
+
+            .navbar__text {
+                display: none;
+            }
+
+            .navbar__title {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .navbar {
+
+        .navbar__collection {
+
+            .navbar__img {
+                display: none;
+            }
+
+            .navbar__text {
+                display: none;
+            }
+
+            .navbar__title {
+                display: none;
+            }
+
+            button {
+                padding: 10px 20px;
+            }
+
+            svg {
+                display: none;
+            }
+        }
+    }
+}
